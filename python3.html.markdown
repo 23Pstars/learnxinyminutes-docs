@@ -824,6 +824,11 @@ if __name__ == '__main__':
     print('Can I fly? ' + str(sup.fly))
 
 
+# If you have a Python script named math.py in the same
+# folder as your current script, the file math.py will
+# be loaded instead of the built-in Python module.
+# This happens because the local folder has priority
+# over Python's built-in libraries.
 
 ####################################################
 ## 7. Advanced
