@@ -546,6 +546,19 @@ class MyClass
     final function youCannotOverrideMe()
     {
     }
+    
+    // Magic Methods
+    
+    // what to do if Object is treated as a String
+    public function __toString() {
+        return $property;
+    }
+    
+    // opposite to __construct()
+    // called when object no longer referenced
+    public function __destruct() {
+        print "Destroying"
+    }
 
     // Magic Methods
 
